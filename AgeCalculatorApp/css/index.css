@@ -1,0 +1,31 @@
+/* Style for the calculator container */
+.calculator-container {
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Style for the input fields in the first column */
+.input-fields {
+  height: 30%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the image in the second column */
+.image {
+  height: 30%;
+  width: 30%;
+  float: right;
+}
+
+/* Style for the result heading in the third column */
+.result-heading {
+  text-align: center;
+}
